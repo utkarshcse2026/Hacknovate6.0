@@ -78,6 +78,7 @@ const Navbar = () => {
           {[
             { name: "About", path: "/" },
             { name: "Team", path: "/team" },
+            { name: "Events", path: "/Events" },
             { name: "COC", path: "/codeofconduct" },
             { name: "Sponsor Us", path: "/sponsor", isExternal: true, externalUrl: "https://lu.ma/4phnzjrb" },
           ].map((item) => (

@@ -6,6 +6,7 @@ import Footer from "./components/Footer.jsx";
 import BackgroundMusic from "./components/BackgroundMusic.jsx";
 import AboutSectionMain from "./components/AboutSectionMain.jsx";
 import Mentor from "./components/Mentor.jsx";
+import Events from "./components/Events.jsx";
 import Team from "./components/Team.jsx";
 import NewspaperHeader from "./components/NewspaperHeader.jsx";
 import Spnosor from "./components/Spnosor.jsx";
@@ -26,6 +27,7 @@ function App() {
           <Route path="/codeofconduct" element={<CodeOfConduct />} />
           <Route path="/team" element={<Team />} />
           <Route path="/sponsor" element={<Spnosor />} />
+          <Route path="/Events" element={<Events />} />
           <Route path="/faq" element={<Faq />} />
         </Routes>
         <Chatbot />
