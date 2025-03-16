@@ -1,0 +1,14 @@
+
+
+.theme-text-dev{
+    width: 1020px;
+    height: 10rem;
+    aspect-ratio: 510/107;
+    border-right: 30px;
+}
+
+.theme-text{
+    font-family: "Times New Roman";
+    font-size: 22px;
+    font-style: normal;
+}

@@ -1,0 +1,21 @@
+.owl-container {
+    position: fixed;
+    top: 20%; /* Adjust vertical position as needed */
+    transform: translateX(-50%); /* Center the owl horizontally */
+    transition: left 0.1s ease-out; /* Smooth horizontal movement */
+  }
+  
+  .owl {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    animation: fly 2s infinite alternate; /* Add a flying animation */
+  }
+  
+  @keyframes fly {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }

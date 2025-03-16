@@ -1,0 +1,141 @@
+/* team.css */
+
+.main-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.team-border {
+  border: 5px solid black;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.team-container {
+  display: flex;
+  gap: 20px;
+}
+
+.left-side, .right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.team-heading {
+  font-size: 6rem;
+  margin-bottom: 20px;
+}
+
+.team-row, .bottom-row {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.team-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.team-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.image-duo {
+  display: flex;
+  gap: 10px;
+}
+
+.team-image-half {
+  width: calc(50% - 5px);
+  height: auto;
+  object-fit: cover;
+}
+
+.team-description {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.team-description p {
+  margin: 3px;
+  line-height: 1.5;
+}
+
+.intro-text {
+  margin-bottom: 20px;
+}
+
+.bottom-row {
+  margin-top: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .team-heading {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .team-container {
+    flex-direction: column;
+  }
+  
+  .team-heading {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-row, .bottom-row {
+    flex-direction: column;
+  }
+  
+  .team-heading {
+    font-size: 3rem;
+  }
+  
+  .image-duo {
+    flex-direction: column;
+  }
+  
+  .team-image-half {
+    width: 100%;
+  }
+  
+  .team-border {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .team-heading {
+    font-size: 2.5rem;
+  }
+  
+  .team-border {
+    padding: 10px;
+  }
+}

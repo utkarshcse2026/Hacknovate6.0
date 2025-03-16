@@ -1,0 +1,9 @@
+body {
+  background-image: url("./assets/darkbg.svg");
+  background-size: cover;
+  font-family: serif;
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+  
+}
