@@ -338,8 +338,7 @@ const Chatbot = () => {
       {/* Toggle Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="z-20 fixed w-20 h-20 bottom-4 flex justify-center align-center items-center  text-2xl right-12  md:right-4 p-4 bg-black text-white rounded-full  hover:bg-black transition-all"
-      >
+className="z-20 fixed w-16 h-16 md:w-20 md:h-20 bottom-4 flex justify-center align-center items-center  text-2xl right-8 md:right-12  md:right-4 p-4 bg-black text-white rounded-full  hover:bg-black transition-all"      >
               <span
                 style={{
                   color: "#FFD700", // Gold color
