@@ -4,10 +4,9 @@ import { FaDiscord } from "react-icons/fa";
 import owl from "../assets/owl-wizard.png";
 import devfolio from "../assets/devfolio.png";
 
-import Tt from "../assets/Tt.gif";
-
+import Tt from "../assets/Tt2.gif";
 const Header = () => {
-  const targetDate = new Date(Date.UTC(2025, 3, 4, 9, 0, 0));
+  const targetDate = new Date(Date.UTC(2025, 3, 4, 9, 0, 0))
 
 
   return (
