@@ -2,6 +2,7 @@
 
 Automated log of daily development activity.
 
+- `2025-12-16` — Addressed technical debt
 - `2025-11-24` — Stabilised core logic
 - `2025-11-22` — Cleaned up unused imports
 - `2025-11-09` — Improved variable naming
