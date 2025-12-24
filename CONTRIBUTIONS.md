@@ -2,6 +2,7 @@
 
 Automated log of daily development activity.
 
+- `2025-12-24` — Code style improvements
 - `2025-12-21` — Added defensive checks
 - `2025-12-16` — Addressed technical debt
 - `2025-11-24` — Stabilised core logic
