@@ -2,6 +2,7 @@
 
 Automated log of daily development activity.
 
+- `2025-12-13` — Updated helper utilities
 - `2025-12-09` — Minor performance improvements
 - `2025-12-07` — Refactored repeated logic into helpers
 - `2025-11-28` — Validated core workflows
