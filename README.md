@@ -51,4 +51,6 @@ npm run dev
 ### 🌐 Live Website
 🔗 https://hacknovate6.tech/
 
-
+<!-- last-updated -->
+> 🕐 Last Updated: **October 01, 2026 at 14:34 IST**
+<!-- /last-updated -->
